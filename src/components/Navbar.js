@@ -1,9 +1,9 @@
 import React from 'react';
 import styled, {css} from 'styled-components/macro';
-import {Link} from 'react-router-dom';
-import {MenuData} from '../data/MenuData';
+import { Link } from 'react-router-dom';
+import { MenuData } from '../data/MenuData';
 import { Button } from './Button';
-
+import {FaBars} from 'react-icons/fa'
 
 const Nav= styled.nav`
 height:60px;
@@ -31,12 +31,31 @@ ${NavLink}
 font-style: italic ;
 `;
 
-const MenuBars = styled.i``;
+const MenuBars = styled(FaBars)`
+display:none;
+@media screen and (max-width: 768px){
+    display:block;
+    padding-top: 7px;
+    color:#fff;
+    background-size:contain;
+    height:30px;
+    width: 30px;
+    cursor: pointer;
+    position:absolute;
+    top:0;
+    right:0;
+    transform: translate(-50%, 35%);
+}
+`;
 
 const NavMenu=styled.div`
 display:flex;
 align-items:center;
 margin-right:-48px;
+
+@media screen and (max-width: 768px){
+    display:none;
+}
 `;
 
 const NavMenuLinks=styled(Link)`
@@ -47,7 +66,9 @@ const NavBtn=styled.div`
 display:flex;
 align-items:center;
 margin-right:24px;
-
+@media screen and (max-width: 768px){
+    display:none;
+}
 `;
 
 const Navbar = () => {
@@ -62,7 +83,7 @@ const Navbar = () => {
                     </NavMenuLinks>
                 ))}
             </NavMenu>
-            <NavBtn><Button to='/contact' primary='true'> Contact Me</Button>
+            <NavBtn><Button to='/contact' primary='true'> Contact Me </Button>
             </NavBtn>
         </Nav>
     )
