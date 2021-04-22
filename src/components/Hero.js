@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaSlideshare } from 'react-icons/fa';
 import styled,{ css } from 'styled-components/macro';
+import { Button } from './Button';
 
 const HeroSection=styled.section`
 height: 100vh;
@@ -31,11 +32,17 @@ const Hero = ({slides}) => {
                 {slides.map((slide,index)=>{
                     return(
                         <HeroSlide key={index}>
-                            <HerImage>
-                                <HeroContent>
-                                    <h1>{slide.titile}</h1>
-                                </HeroContent>
-                            </HerImage>
+                            <HeroSlider>
+                                <HeroImage>
+                                    <HeroContent>
+                                        <h1>{slide.titile}</h1>
+                                        <p>{slide.pics}</p>
+                                        <Button to={slide.path} primary ="true">
+                                            {slide.label}
+                                        </Button>
+                                    </HeroContent>
+                                </HeroImage>
+                            </HeroSlider>
                         </HeroSlide>
                     )
                 })}
