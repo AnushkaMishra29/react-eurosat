@@ -71,7 +71,7 @@ position: relative;
   color:#fff;
   h1{
     font-size: clamp(1rem, 8vw,2rem);
-    font-weight: 800;
+    font-weight: 450;
     text-transform: uppercase;
     text-shadow: 0px 0px 20px rgba(1, 1, 1, 0.4);
     text-align: left;
