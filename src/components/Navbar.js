@@ -13,7 +13,6 @@ padding:1rem 2rem;
 z-index:100;
 positon: fixed;
 width:100%;
-background:red;
 `;
 
 const NavLink=css`
@@ -27,8 +26,8 @@ text-decoration: none;
 `;
 
 const Logo=styled(Link)`
-${NavLink}
-font-style: italic ;
+  ${NavLink}
+  font-style:italic;
 `;
 
 const MenuBars = styled(FaBars)`

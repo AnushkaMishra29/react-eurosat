@@ -1,77 +1,74 @@
-//import ImageOne from '../images/pic-1.jpg'
-//import ImageTwo from '../images/pic-2.jpg'
-//import ImageThree from '../images/pic-3.jpg'
-//import ImageFour from '../images/pic-4.jpg'
-//import ImageFive from '../images/pic-5.jpg'
-//import ImageSix from '../images/pic-6.jpg'
-//import ImageSeven from '../images/pic-7.jpg'
-//import ImageEight from '../images/pic-8.jpg'
-//import ImageNine from '../images/pic-9.jpg'
+
+import Image1 from '../images/pic-1.jpg'
+import Image2 from '../images/pic-2.jpg'
+import Image3 from '../images/pic-3.jpg'
+import Image4 from '../images/pic-4.jpg'
+import Image5 from '../images/pic-5.jpg'
 export const SliderData=[
     {
         title:'Welcome to the AMAZING world of eurosat prediction',
         path: '/pics',
         label:'view pics',
-        /*image: ImageOne,*/
+        image: Image1,
         alt:'Pics'
     },
     {
         title:'Welcome to the AMAZING world of eurosat prediction',
         path: '/pics',
         label:'view pics',
-        //image: ImageTwo,
+        image: Image2,
         alt:'Pics'
     },
     {
         title:'Welcome to the AMAZING world of eurosat prediction',
         path: '/pics',
         label:'view pics',
-        //image: ImageThree,
+        image: Image3,
         alt:'Pics'
     },
     {
         title:'Welcome to the AMAZING world of eurosat prediction',
         path: '/pics',
         label:'view pics',
-        //image: ImageFour,
+        image: Image4,
         alt:'Pics'
     },
     {
         title:'Welcome to the AMAZING world of eurosat prediction',
         path: '/pics',
         label:'view pics',
-        //image: ImageFive,
+        image: Image5,
         alt:'Pics'
     }
 ];
-export const SliderDataTwo=[
-    {
-        title:'Welcome to the AMAZING world of eurosat prediction',
-        path: '/pics',
-        label:'view pics',
-        //image: ImageSix,
-        alt:'Pics'
-    },
-    {
-        title:'Welcome to the AMAZING world of eurosat prediction',
-        path: '/pics',
-        label:'view pics',
-        //image: ImageSeven,
-        alt:'Pics'
-    },
-    {
-        title:'Welcome to the AMAZING world of eurosat prediction',
-        path: '/pics',
-        label:'view pics',
-        //image: ImageEight,
-        alt:'Pics'
-    },
-    
-    {
-        title:'Welcome to the AMAZING world of eurosat prediction',
-        path: '/pics',
-        label:'view pics',
-        //image: ImageNine,
-        alt:'Pics'
-    }
-];
+// export const SliderDataTwo=[
+//     {
+//         title:'Welcome to the AMAZING world of eurosat prediction',
+//         path: '/pics',
+//         label:'view pics',
+//         //image: Image6,
+//         alt:'Pics'
+//     },
+//     {
+//         title:'Welcome to the AMAZING world of eurosat prediction',
+//         path: '/pics',
+//         label:'view pics',
+//         //image: Image7,
+//         alt:'Pics'
+//     },
+//     {
+//         title:'Welcome to the AMAZING world of eurosat prediction',
+//         path: '/pics',
+//         label:'view pics',
+//         //image: Image8,
+//         alt:'Pics'
+//     },
+//
+//     {
+//         title:'Welcome to the AMAZING world of eurosat prediction',
+//         path: '/pics',
+//         label:'view pics',
+//         //image: Image9,
+//         alt:'Pics'
+//     }
+// ];
