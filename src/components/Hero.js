@@ -71,9 +71,9 @@ position: relative;
   color:#fff;
   h1{
     font-size: clamp(1rem, 8vw,2rem);
-    font-weight: 400;
+    font-weight: 800;
     text-transform: uppercase;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 0px 20px rgba(1, 1, 1, 0.4);
     text-align: left;
     margin-bottom: 0.8rem;
   }
@@ -175,16 +175,6 @@ const[current,setCurrent] =useState(0);
                                     <HeroImage src={slide.image} alt={slide.alt} />
                                     <HeroContent>
                                         <h1>{slide.title}</h1>
-                                        <Button
-                                            to={slide.path}
-                                            primary ='true'
-                                            css={`
-                                              max-width: 160px;
-                                            `}
-                                        >
-                                            {slide.label}
-                                            <Arrow />
-                                        </Button>
                                     </HeroContent>
                                 </HeroSlider>
                             )}

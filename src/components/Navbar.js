@@ -6,13 +6,14 @@ import { Button } from './Button';
 import {FaBars} from 'react-icons/fa'
 
 const Nav= styled.nav`
-height:60px;
+height:40px;
 display:flex;
 justify-content: space-between;
 padding:1rem 2rem;
 z-index:100;
 positon: fixed;
 width:100%;
+  background: black;
 `;
 
 const NavLink=css`
@@ -50,7 +51,7 @@ display:none;
 const NavMenu=styled.div`
 display:flex;
 align-items:center;
-margin-right:-48px;
+margin-right:-50px;
 
 @media screen and (max-width: 768px){
     display:none;
@@ -64,7 +65,7 @@ ${NavLink}
 const NavBtn=styled.div`
 display:flex;
 align-items:center;
-margin-right:24px;
+margin-right:20px;
 @media screen and (max-width: 768px){
     display:none;
 }
