@@ -71,11 +71,11 @@ margin-right:20px;
 }
 `;
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <Nav>
             <Logo to='/'>AM</Logo>
-            <MenuBars/>
+            <MenuBars onClick={toggle}/>
             <NavMenu>
                 {MenuData.map((item,index)=>(
                     <NavMenuLinks to={item.link} key={index}>
