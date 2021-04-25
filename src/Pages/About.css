@@ -1,87 +1,79 @@
-.wedo .letter
-{
-    position:absolute;
-    top:215vh;
-
-    background:#262537;
-    height: 18vw;
+.About{
+    background: linear-gradient(to bottom, #252525 0%,  #040404 100%);
     width: 100vw;
+    min-height: 100vh;
+    padding-top:30px;
 }
-.wedo img{
-    height:30vw;
-}
-.wedo{
-    background: url(../images/pic-4.jpg);
-    background-attachment: fixed;
-}
-.wedo .heading
+
+.About .cover
 {
-    margin-bottom:3vh;
-    padding-top: 2vh;
+
+    width: 100vw;
+    height: 90vh;
+
+    position:absolute;
+    opacity: 0.7;
 }
-.wedo .col-md-8
+.About .cover2
 {
-    padding:7vw 100px;
+    background-position:center;
+    background-image: url("../images/pic-4.jpg");
 }
-.wedo .mobile
+.About .heading
 {
-    display:none;
-}
-.wedo .font2
-{
-    font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 1.5vw;
+    font-family: myFont;
+    font-size: 30px;
+    letter-spacing: 2px;
+    /* margin-top: 50px; */
+    width: 100vw;
+    padding-left:3vw;
+    margin-top: 60px;
 }
-@media only screen and (max-width: 1024px) {
-    .wedo .letter
+.About .content
+{
+    width: 15vw;
+    border-bottom: 3px solid #d78ca7;
+
+    margin-bottom: 50px;
+}
+.About .para
+{
+    color: white;
+    margin-left: 10vw ;
+    margin-right: 4vw;
+    margin-top:100px;
+    font-size:2.1vw;
+    letter-spacing: 4px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+@media screen and (max-width: 1024px) {
+    .About .content
     {
-        top:208vh
+        width: 30vw;
+    }
+    .About .heading
+    {
+        font-size: 25px;
     }
 }
-@media only screen and (max-width: 991px) {
-    .wedo .letter
+@media screen and (max-width: 576px) {
+    .About .content
     {
-        top:285vh
-    }
-}
-@media only screen and (max-width: 991px) {
-    .wedo .letter
-    {
-        top:280vh
-    }
-}
-@media only screen and (max-width: 768px) {
-    .wedo .web
-    {
-        display: none;
-    }
-    .wedo .mobile
-    {
-        display: block;
-        height: 100vh;
-        background:#262537;
-    }
-    .wedo .col-12
-    {
+        width: 60vw;
         text-align: center;
     }
-    .wedo .col-12{
-        padding-top:0vh;
-    }
-    .wedo img
+    .About .heading
     {
-        height:50vh;
+        font-size: 6vw;
+        padding-left: 20vw;
     }
-    .wedo .font2{
-        font-size:3vh;
-        padding-top:3vh
-    }
-    .wedo .heading{
-        color: white;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
+    .About .para{
         font-size:5vw;
-        margin-bottom: 0px;
+        margin-top: 5vh;
+        text-align: justify;
+        margin-left: 5vw;
+        letter-spacing: 1px;
     }
 }

@@ -1,16 +1,10 @@
 import React from 'react';
-
+import './Predict.css';
 const Predict =() => {
     return(
-        <div
-            style={{
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                height:'90vh'
-            }}
+        <div className="predict"
         >
-            <h1>Predict</h1>
+            <div className="Heading"> <h1>Predict</h1></div>
         </div>
     );
 };
