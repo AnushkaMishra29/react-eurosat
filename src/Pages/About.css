@@ -1,5 +1,10 @@
 .About{
-    background: linear-gradient(to bottom, #252525 0%,  #040404 100%);
+    background-image: url("../images/moon.jpg");
+    background-position:center !important;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    backdrop-filter: blur(400px);
     width: 100vw;
     min-height: 100vh;
     padding-top:30px;
@@ -16,8 +21,9 @@
 }
 .About .cover2
 {
-    background-position:center;
-    background-image: url("../images/pic-4.jpg");
+
+    display: flex;
+
 }
 .About .heading
 {
@@ -39,7 +45,7 @@
 }
 .About .para
 {
-    color: white;
+    color: pink;
     margin-left: 10vw ;
     margin-right: 4vw;
     margin-top:100px;

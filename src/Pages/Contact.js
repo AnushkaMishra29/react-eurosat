@@ -35,8 +35,9 @@ const Contact = ({
 
     return (
         <form className="contact-form" onSubmit={handleSubmit}>
+            <div className="bg"></div>
             <div className="contact-form-group">
-                <label htmlFor="email">Your email address</label>
+                <label htmlFor="email"></label>
                 <input
                     name="email"
                     id="email"
@@ -47,7 +48,7 @@ const Contact = ({
                 />
             </div>
             <div className="contact-form-group">
-                <label htmlFor="message">Your message</label>
+                <label htmlFor="message"></label>
                 <textarea
                     name="message"
                     id="message"

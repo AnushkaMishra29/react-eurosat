@@ -1,5 +1,10 @@
 .contact-form {
-    background: url("../images/pic-4.jpg");
+    background: url("../images/cloud.jpg");
+    background-position:center !important;
+
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
     margin-left: auto;
     margin-right: auto;
     width:100%;
@@ -8,8 +13,10 @@
     text-align: center;
 }
 
+
 .contact-form-group {
     margin-bottom: 20px;
+
 }
 
 .contact-form-group label {
@@ -22,40 +29,39 @@
     width: 70%;
     height: 50px;
     background: transparent;
-    border: 3px solid #262537;
+    border: 2px solid darkslategrey;
     border-radius: 3%;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     padding-left:10px;
     width:70%;
-
+    textShadow: 0 14px 28px rgba(141, 224, 245, 0.25), 0 10px 10px rgba(197, 238, 241, 0.22);
     letter-spacing:4px;
     font-weight:600;
-    box-shadow: 0 14px 28px rgba(240, 229, 85, 0.25), 0 10px 10px rgba(204, 240, 47, 0.22);
+
 }
 
 .contact-form-group textarea {
     height: 200px;
     background: transparent;
-    border: 3px solid #262537;
+    border: 2px solid darkslategrey;
     border-radius: 3%;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     padding-left:10px;
     width:70%;
-
+    textShadow: 0 14px 28px rgba(141, 224, 245, 0.25), 0 10px 10px rgba(197, 238, 241, 0.22);
     letter-spacing:4px;
     font-weight:600;
-    box-shadow: 0 14px 28px rgba(240, 229, 85, 0.25), 0 10px 10px rgba(204, 240, 47, 0.22);
+
 }
 
 .contact-form button {
     cursor: pointer;
     padding: 1rem 2rem;
     background: transparent;
-    box-shadow: 0 14px 28px rgba(240, 229, 85, 0.25), 0 10px 10px rgba(204, 240, 47, 0.22);
     border-radius:3% !important;
-    border: 1px solid #262537 ;
+    border: 2px solid darkslategrey;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     display: block;
@@ -65,7 +71,7 @@
     position: relative;
     letter-spacing: 2px;
     text-transform: uppercase;
-    left: -6vw;
+    textShadow: 0 14px 28px rgba(141, 224, 245, 0.25), 0 10px 10px rgba(197, 238, 241, 0.22);
 
 }
 

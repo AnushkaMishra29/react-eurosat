@@ -7,6 +7,7 @@ import Dropdown from "./components/Dropdown";
 import About from "./Pages/About";
 import Predict from "./Pages/Predict";
 import Contact from "./Pages/Contact";
+import Predict_Img from "./Pages/Predict_Img";
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 
 
@@ -24,6 +25,7 @@ function App() {
             <Route path ='/Predict'  exact component ={Predict}/>
             <Route path ='/Contact'  exact component ={Contact}/>
         </switch>
+        
       <Hero slides={SliderData}/>
         <Dropdown isOpen={isOpen} toggle={toggle}/>
     </Router>

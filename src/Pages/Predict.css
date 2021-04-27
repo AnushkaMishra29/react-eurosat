@@ -1,13 +1,20 @@
+
+
 .predict{
-    background: url("../images/pic-4.jpg");
+    background: url("../images/predict.jpg");
+    background-position:center !important;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
     display: flex;
-    justifyContent:'center';
     alignItems:'center';
-    height:100vh;
+    height: 100vh;
+
+
 }
 .Heading{
     color: #ffffff;
     padding-left: 43%;
-    padding-top: 110px;
+    padding-top: 20%;
     text-shadow: 0 14px 28px rgba(240, 229, 85, 0.25), 0 10px 10px rgba(204, 240, 47, 0.22);
 }
