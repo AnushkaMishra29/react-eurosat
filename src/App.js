@@ -25,7 +25,7 @@ function App() {
             <Route path ='/Predict'  exact component ={Predict}/>
             <Route path ='/Contact'  exact component ={Contact}/>
         </switch>
-        
+
       <Hero slides={SliderData}/>
         <Dropdown isOpen={isOpen} toggle={toggle}/>
     </Router>
